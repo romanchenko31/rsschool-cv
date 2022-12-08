@@ -26,7 +26,7 @@ My next goal is to become Junior Frontend Developer. My strengths are the perfor
 ## Code example:
 
 `arrays.map(array=>{
-    return console.log(array);
+    return array;
 });`
 
 ## Work experience
