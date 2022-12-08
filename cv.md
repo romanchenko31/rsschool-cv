@@ -50,4 +50,4 @@ I have begginer level English and I am studying an English course by application
 
 **_My progress in Duolingo:_**
 
-<img src="/img/duolingo.jpeg" width="200" height="200" />
+<img src="/img/duolingo.jpeg" width="300" height="300" />
