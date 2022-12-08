@@ -46,7 +46,11 @@ My next goal is to become Junior Frontend Developer. My strengths are the perfor
 
 ## Languages
 
-I have begginer level English and I am studying an English course by application Duolingo.
+Russian: Native;
+
+Ukrainian: Native;
+
+English: I have begginer level English and I am studying an English course by application Duolingo.
 
 **_My progress in Duolingo:_**
 
