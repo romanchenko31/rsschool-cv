@@ -32,7 +32,9 @@ My next goal is to become Junior Frontend Developer. My strengths are the perfor
 ## Work experience
 
 - HTML5, CSS3, JavaScript, React Tutorials on the video courses and documentation
+
   **_My educational projects:_**
+
 - [**Image Finder on react**](https://romanchenko31.github.io/goit-react-hw-04-images/)
 - [**Filmoteka on vanilla Js**](https://romanchenko31.github.io/Filmoteka-APP/index.html)
 
@@ -45,4 +47,7 @@ My next goal is to become Junior Frontend Developer. My strengths are the perfor
 ## Languages
 
 I have begginer level English and I am studying an English course by application Duolingo.
-**_My progress in Duolingo:_** <img src="/img/duolingo.jpeg" width="100" height="100" />
+
+**_My progress in Duolingo:_**
+
+<img src="/img/duolingo.jpeg" width="200" height="200" />
