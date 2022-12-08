@@ -1,4 +1,4 @@
-![My photo](/img/photo.jpeg =200x200)
+<img src="/img/photo.jpeg" width="200" height="200" />
 
 # Romanchenko Evgeniy
 
