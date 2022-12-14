@@ -1,4 +1,4 @@
-<img src="/img/photo.jpeg" width="200" height="200" />
+<img src="./img/header_images/myPhoto.jpeg" width="200" height="200" />
 
 # Romanchenko Evgeniy
 
@@ -54,4 +54,4 @@ English: I have begginer level English and I am studying an English course by ap
 
 **_My progress in Duolingo:_**
 
-<img src="/img/duolingo.jpeg" width="300" height="300" />
+<img src="./img/main_images/duolingo.jpeg" width="300" height="300" />
