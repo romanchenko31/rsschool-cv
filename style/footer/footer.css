@@ -1,0 +1,12 @@
+.footer-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-head a:first-child {
+  margin-right: 50px;
+}
+.date {
+  margin-top: 20px;
+  text-align: center;
+}
