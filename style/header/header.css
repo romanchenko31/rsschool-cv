@@ -1,10 +1,46 @@
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #dda5a596;
+ header{
+  background: #414141;
+ }
+ .header {
+  margin: 0 auto;
+max-width: 800px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 150px;
 }
+.myPhoto{
+  position: absolute;
+  top: 100%;
+    left: 50%;
+transform: translate(-50%, -70%);
+}
+
+    .wrapp-name {
+      text-align: center;
+    }
+@media (min-width:680px) {
+  .myPhoto {
+      left: 100%;
+        transform: translate(-115%, -70%);
+  }
+  .header{
+    padding-bottom: 65px;
+  }
+  .wrapp-name{
+    text-align: left;
+  }
+}
+
+
+.job{
+  padding-top: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+} 
+
 .name {
-  margin-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dda5a596;
 }

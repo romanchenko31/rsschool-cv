@@ -1,8 +1,55 @@
-.wrapper-info {
-  display: flex;
-  justify-content: center;
+main h2{
+  background-color: #414141;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
 }
-.wrapper {
-  max-width: 500px;
+main{
+  font-size: 16px;
+}
+.contacts{
+  margin-top: 70px;
+}
+
+.contacts .item{
+      display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+}
+svg{
+  margin-right: 10px;
+}
+
+.skills,
+.briefly,
+.experience,
+.code-example,
+.education,
+.languages{
+  margin-bottom: 10px;
+}
+@media (min-width:680px) {
+.container {
   margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+      flex-direction: row-reverse;
+}   
+.briefly-tablet{
+  margin-top: 20px;
 }
+ .skills-tablet{
+  background: #414141;
+  border-radius: 20px;
+    padding: 0 10px;
+ }
+    .skills-tablet li{
+      color: #fff;
+      font-size: 18px;
+    }
+         .skills-tablet a {
+           color: #fff;
+         }
+}
+

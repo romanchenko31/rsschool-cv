@@ -6,100 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Romanchenko Evgeniy</title>
     <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap"
+      rel="stylesheet">
   </head>
 
   <body>
     <header>
       <div class="header">
-        <img src="./img/header_images/myPhoto.jpeg" width="200" alt="myPhoto">
-        <h1 class="name">Romanchenko Evgeniy</h1>
+        <div class="wrapp-name">
+          <h1 class="name">Romanchenko Evgeniy</h1>
+          <h2 class="job">Junior Frontend Developer</h2>
+        </div>
+        <img class="myPhoto" src="./img/header_images/myPhoto.jpeg" width="200" alt="myPhoto">
       </div>
     </header>
     <main>
-      <div class="wrapper-info">
-        <div class="contacts">
-          <h2>Contact information:</h2>
-          <nav>
-            <ul>
-              <li><b>Phone:</b><a href="tel:+380991227232">+38 099 1227232</a></li>
+      <div class="container">
+        <div class="skills-tablet">
+          <div class="contacts">
+            <h2>Contact information:</h2>
+            <nav>
+              <ul class="list">
+                <li class="item">
+                  <svg width="30" height="30">
+                    <use href="./img/main_images/svg_icon/icon.svg#icon-auricular"></use></svg>
+                    <a href="tel:+380991227232">+38 099 1227232</a>
+                </li>
+                <li class="item">
+                  <svg width="30" height="30">
+                    <use href="./img/main_images/svg_icon/icon.svg#icon-email"></use>
+                  </svg>
+                  <a href="mailto:romanchenko.zhen@gmail.com">romanchenko.zhen@gmail.com</a>
+                </li>
+                <li class="item">
+                  <svg width="30" height="30">
+                    <use href="./img/main_images/svg_icon/icon.svg#icon-discord"></use></svg>
+                    <span>romanchenko#8042</span>
+                </li>
+                <li class="item">
+                  <svg width="30" height="30">
+                    <use href="./img/main_images/svg_icon/icon.svg#icon-github"></use>
+                  </svg>
+                  <span>romanchenko31</span>
+                </li>
+                <li class="item">
+                  <svg width="30" height="30">
+                    <use href="./img/main_images/svg_icon/icon.svg#icon-linkedin"></use>
+                  </svg>
+                  <a href="https://www.linkedin.com/in/evgeniy-romanchenko-b245bb254/">Linkedin</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="skills">
+            <h2>Skills:</h2>
+            <ul class="list">
+              <li>HTML5, CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Redux Toolkit</li>
+              <li>Router</li>
+              <li>Figma</li>
+              <li>Git, GitHub</li>
+              <li>Wordpress</li>
+            </ul>
+          </div>
+        </div>
+        <div class="briefly-tablet">
+          <div class="briefly">
+            <h2>Briefly About Myself:</h2>
+            <p>
+              My next goal is to become Junior Frontend Developer. My strengths are the performance
+              of the assigned tasks as qualitatively as possible. At this stage, I have no
+              experience in commercial development, but I have some programming knowledge because I
+              started learning programming on my own, and in order to consolidate my knowledge and
+              learn something new, I signed up for courses RS School.
+            </p>
+          </div>
+          <div class="code-example">
+            <h2>Code example:</h2>
+            <code>arrays.map(array=>{ return array; });</code>
+          </div>
+          <div class="experience">
+            <h2>Work experience:</h2>
+            <ul class="list">
               <li>
-                <b>E-mail:</b>
-                <a href="mailto:romanchenko.zhen@gmail.com">romanchenko.zhen@gmail.com</a>
+                HTML5, CSS3, JavaScript, React Tutorials on the video courses and documentation
               </li>
-              <li><b>Discord nik-name:</b> romanchenko#8042</li>
-              <li><b>Github nik-name:</b> romanchenko31</li>
               <li>
-                <a href="https://www.linkedin.com/in/evgeniy-romanchenko-b245bb254/">Linkedin</a>
+                My educational projects:
+                <ul>
+                  <li>
+                    <a href="https://romanchenko31.github.io/goit-react-hw-04-images/"
+                      >Image Finder on react</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://romanchenko31.github.io/Filmoteka-APP/index.html"
+                      >Filmoteka on vanilla Js</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
-          </nav>
-        </div>
-        <div class="skills">
-          <h2>Skills:</h2>
-          <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>Redux Toolkit</li>
-            <li>Router</li>
-            <li>Figma</li>
-            <li>Git, GitHub</li>
-            <li>Wordpress</li>
-          </ul>
-        </div>
-      </div>
-      <div class="wrapper">
-        <h2>Briefly About Myself:</h2>
-        <p>
-          My next goal is to become Junior Frontend Developer. My strengths are the performance of
-          the assigned tasks as qualitatively as possible. At this stage, I have no experience in
-          commercial development, but I have some programming knowledge because I started learning
-          programming on my own, and in order to consolidate my knowledge and learn something new, I
-          signed up for courses RS School.
-        </p>
-
-        <h2>Code example:</h2>
-        <code>arrays.map(array=>{ return array; });</code>
-        <h2>Work experience:</h2>
-        <ul>
-          <li>HTML5, CSS3, JavaScript, React Tutorials on the video courses and documentation</li>
-          <li>
-            My educational projects:
-            <ul>
-              <li>
-                <a href="https://romanchenko31.github.io/goit-react-hw-04-images/"
-                  >Image Finder on react</a
-                >
-              </li>
-              <li>
-                <a href="https://romanchenko31.github.io/Filmoteka-APP/index.html"
-                  >Filmoteka on vanilla Js</a
-                >
-              </li>
+          </div>
+          <div class="education">
+            <h2>Education:</h2>
+            <ul class="list">
+              <li>Documentation</li>
+              <li>Video tutorial on YouTube</li>
+              <li>Courses RS School «JavaScript/Front-end. Stage 0» (in progress)</li>
             </ul>
-          </li>
-        </ul>
-        <h2>Education:</h2>
-        <ul>
-          <li>Documentation</li>
-          <li>Video tutorial on YouTube</li>
-          <li>Courses RS School «JavaScript/Front-end. Stage 0» (in progress)</li>
-        </ul>
-        <h2>Languages:</h2>
-        <ul>
-          <li>Ukrainian: Native;</li>
-          <li>Russian: Native;</li>
-          <li>English: Pre-Intermediate</li>
-        </ul>
-        <h3><i>My progress in Duolingo:</i></h3>
-        <img width="300" src="./img/main_images/duolingo.jpeg" alt="duolingo">
+          </div>
+          <div class="languages">
+            <h2>Languages:</h2>
+            <ul class="list">
+              <li><b>Ukrainian:</b> Native;</li>
+              <li><b>Russian:</b> Native;</li>
+              <li><b>English:</b> Pre-Intermediate</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
       <div class="footer-head">
         <a href="https://github.com/romanchenko31">MyGitHub</a>
-        <a href="https://rs.school/js/"><img width="100" src="./img/footer_images/rs_school_js.svg" alt="RsSchool"></a>
+        <a href="https://rs.school/js/"
+          ><img width="100" src="./img/footer_images/rs_school_js.svg" alt="RsSchool">
+        </a>
       </div>
       <div class="date">©2022</div>
     </footer>

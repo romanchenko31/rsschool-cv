@@ -1,3 +1,4 @@
+@import './style/normalize/normalize.css';
 @import './style/header/header.css';
 @import './style/main/main.css';
 @import './style/footer/footer.css';

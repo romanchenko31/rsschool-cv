@@ -1,12 +1,22 @@
+footer{
+      background: #414141;
+        color: #fff;
+        padding: 10px 0;
+}
 .footer-head {
+margin: 0 auto;
+  max-width: 800px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding-bottom: 5px;
+}
+.footer-head a{
+  color:#fff;
 }
 .footer-head a:first-child {
   margin-right: 50px;
 }
 .date {
-  margin-top: 20px;
   text-align: center;
 }
