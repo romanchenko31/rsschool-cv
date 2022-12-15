@@ -1,44 +1,43 @@
- header{
+header {
   background: #414141;
- }
- .header {
+}
+.header {
   margin: 0 auto;
-max-width: 800px;
+  max-width: 800px;
   color: #fff;
   text-align: center;
   position: relative;
   padding-top: 20px;
   padding-bottom: 150px;
 }
-.myPhoto{
+.myPhoto {
   position: absolute;
   top: 100%;
-    left: 50%;
-transform: translate(-50%, -70%);
+  left: 50%;
+  transform: translate(-50%, -70%);
 }
 
-    .wrapp-name {
-      text-align: center;
-    }
-@media (min-width:680px) {
+.wrapp-name {
+  text-align: center;
+}
+@media (min-width: 680px) {
   .myPhoto {
-      left: 100%;
-        transform: translate(-115%, -70%);
+    left: 100%;
+    transform: translate(-115%, -70%);
   }
-  .header{
+  .header {
     padding-bottom: 65px;
   }
-  .wrapp-name{
+  .wrapp-name {
     text-align: left;
   }
 }
 
-
-.job{
+.job {
   padding-top: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
-} 
+}
 
 .name {
   padding-bottom: 10px;
